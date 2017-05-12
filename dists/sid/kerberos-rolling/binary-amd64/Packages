@@ -1,0 +1,996 @@
+Package: apt-kerberos
+Version: 8.9.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 36
+Homepage: http://www.blackhatsec.org/
+Priority: required
+Section: system
+Filename: pool/kerberos-rolling/a/apt-kerberos/apt-kerberos_8.9.32_all.deb
+Size: 7202
+SHA256: d76129618e2e0fc612a0b8d6214351929ca643998e155a96e1e94dc14c4586d0
+SHA1: 82a6943989a4be0c881b28e525ead88454f5c0d4
+MD5sum: 95b42ed09cc3d82d5e2dfbf03cf7ba31
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: gqrx
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: gqrx-sdr
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/gqrx_2017.1.5_all.deb
+Size: 1732
+SHA256: 65aeacef1b62cbf75ed2ca17476630c653d1a889ddf077262a611b90f7f9a386
+SHA1: f757e6574205dd66cf935709267825b8208ca7c9
+MD5sum: b8991cc74f19e1aa9f883f4466251a41
+Description: Transitional package for gqrx-sdr
+ This package is empty. It only depends on gqrx-sdr to ensure a sane
+ upgrade path in Kerberos.
+ .
+ This package can be safely removed once gqrx-sdr has been installed.
+
+Package: kerberos-anonsurf
+Version: 1.5kerberos
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 9
+Depends: secure-delete, tor, i2p, nscd, dnsmasq
+Recommends: gtkdialog, socat, gufw, libnotify-bin, polipo, proxychains, openvpn, torchat
+Suggests: vidalia
+Priority: optional
+Section: net
+Filename: pool/kerberos-rolling/k/kerberos-anonsurf/kerberos-anonsurf_1.5kerberos_all.deb
+Size: 1210
+SHA256: d4fd5ea05814553806060f02c0d52afe1ea4818a878bc245eb52461f1b9e570c
+SHA1: 78d1d12575030ebd547c2ff9cceec21c9157fcd6
+MD5sum: 00264ae8d42eb25170cad13ea6b16ac0
+Description: kerberos anonsurf for kerberos
+ This package contains kerberos anonsurf.
+
+Package: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 8226
+Depends: kerberos-default-settings
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-artwork_1-1kerberos0_all.deb
+Size: 3797008
+SHA256: 832b04c8abcd57ce66cd9e0fae3a7b2caecf8c578f8ac2cc7f22dc1962f8ac7d
+SHA1: 14b460d8d2d9bdd7ea598e9137106063a93a8356
+MD5sum: 84f5f68e72e243173a57de5577c15f60
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-bootrepair
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 206
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), grub-pc, kerberos-viewer
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-bootrepair/kerberos-bootrepair_1-1kerberos_amd64.deb
+Size: 53196
+SHA256: 27d470279e32d64e18d7a781e64f856f4d2750e6f5f70ec78791e18a36e1a7c6
+SHA1: a02d2f6b829bbb9c03b5532ee70e4bd31403f4d5
+MD5sum: 621031a312d941cc1144b1a67160abf9
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ MX-bootrepair helps with the repair of boot problems.
+
+Package: kerberos-bootrepair-dbgsym
+Source: kerberos-bootrepair
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 37
+Depends: kerberos-bootrepair (= 1-1kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-bootrepair/kerberos-bootrepair-dbgsym_1-1kerberos_amd64.deb
+Size: 6794
+SHA256: 95897bcbc05f4cb8a9eb33dc30557f34dad5694bd29fc2570ab2c365de409ab9
+SHA1: 96ba4f9ab344a8be2289a41f4cee0d3cd066ae12
+MD5sum: f0edca132164e9c0e08384de4d7e27fd
+Description: Debug symbols for kerberos-bootrepair
+Build-Ids: 1b21ab35a73c3bcb1e553e502336d36a6ecdf75e
+
+Package: kerberos-broadcom-manager
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 340
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), kerberos-viewer, rfkill
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-broadcom-manager/kerberos-broadcom-manager_1-1kerberos_amd64.deb
+Size: 90138
+SHA256: 1647b33925c651fdef9732fc1ca70ecf82aa0847f3ba260bb21e7644d836f448
+SHA1: 5f565ac397c33b74243a9393be1ee752c6d51e63
+MD5sum: 04a6910a2ca12f248878345175e7df4c
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ KerberosBroadcom Manager is a program used for configuring and troubleshooting
+ Kerberos Kerberos network configuration for Broadcom network cards.
+
+Package: kerberos-broadcom-manager-dbgsym
+Source: kerberos-broadcom-manager
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 49
+Depends: kerberos-broadcom-manager (= 1-1kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-broadcom-manager/kerberos-broadcom-manager-dbgsym_1-1kerberos_amd64.deb
+Size: 9096
+SHA256: 77d421c94ebcc4c25a103ce9d7d478e011a0bf52aa36f9b95123252049c657a9
+SHA1: 14f096efbc5eaa0b0b20bf454741cac55eca2a63
+MD5sum: f6549c09eeef393c3751e22d50276388
+Description: Debug symbols for kerberos-broadcom-manager
+Build-Ids: a425d425d826a3061f94fc0951daa8d661ceca1a
+
+Package: kerberos-codecs
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 224
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), gksu, kerberos-viewer
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: system
+Filename: pool/kerberos-rolling/k/kerberos-codecs/kerberos-codecs_1-1kerberos_amd64.deb
+Size: 58358
+SHA256: 328bcb4258aab7461c948ab3c077a94a309e5024190304a92c2ae19a3831e73e
+SHA1: 531c57c2d674136c26f97cb8d50f410858d66299
+MD5sum: 3ce4fcfa26a83bf16c791ed3fb333b6b
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ The KerberosCodecs Installer provides an easy way to install certain codecs that can
+ not be included with MX, due to legal issues in some jurisdictions.  i.e
+ libdvdcss2 and w32codecs.  Please check to see if these are legal
+ in your jurisdiction.  For the most part, users would only need libdvdcss2 for
+ commercial DVD playback, most of the codecs in the other two packages are now
+ provided in open media players.
+
+Package: kerberos-codecs-dbgsym
+Source: kerberos-codecs
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 32
+Depends: kerberos-codecs (= 1-1kerberos)
+Homepage: http://www.blackhatsec.org/
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-codecs/kerberos-codecs-dbgsym_1-1kerberos_amd64.deb
+Size: 5834
+SHA256: e3e44346152041dd9307a16d3b3818e83c94a4cbcd37cf830e81a91bb9ec486c
+SHA1: f6cac45b494668c10901916fe8222c71ffcdd9eb
+MD5sum: e19309e9fdd3ca78467e5d7c24deabe3
+Description: Debug symbols for kerberos-codecs
+Build-Ids: 2dfc0f7828fcc9b101fffbdd0b4e2e7a2ba17174
+
+Package: kerberos-desktop-common
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-root-login, kerberos-menu, kerberos-debtags, desktop-base, firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any, dbus-user-session, xserver-xorg-legacy
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-common_2017.1.5_all.deb
+Size: 1854
+SHA256: 708c9e2cd0b81b3da033f2a359357f21118ea147de5870634632c475677049aa
+SHA1: 01e582b65ef2d84afc8fca8f5b245bc0e028a85c
+MD5sum: 6dbb03e9c2dd2d1b21d0202a191e05ff
+Description: Meta-package with dependencies common to all desktops provided by Kerberos
+ This metapackage depends on Kerberos packages that should be intalled on all
+ desktop installations of Kerberos Linux.
+ .
+ This metapackage is a dependency of all kerberos-desktop-* packages.
+
+Package: kerberos-desktop-gnome
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, gnome-core, gedit, gnome-brave-icon-theme, gnome-theme-kerberos, gnome-shell-extensions, gnome-shell-extension-proxyswitcher, gnome-shell-extension-dashtodock, gnome-shell-extension-easyscreencast, gnome-shell-extension-workspacestodock, gnome-tweak-tool, gnome-orca, file-roller
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Conflicts: nautilus-open-terminal, xserver-xorg-input-synaptics
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-gnome_2017.1.5_all.deb
+Size: 1894
+SHA256: 47047bf28efa3e061c27f949edb61cae93e28b36cb252ac779aa695e428aaa64
+SHA1: 69c128f517456894dda0286228594c2f5faf9df6
+MD5sum: 019eaf96896fd5f7264c538168cf179a
+Description: GNOME based Kerberos desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kerberos system.
+
+Package: kerberos-desktop-kde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, kde-plasma-desktop, plasma-nm, sddm
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-kde_2017.1.5_all.deb
+Size: 1720
+SHA256: bd51a07e3b3d7406036487bca04cf90350252cb35c1b83f5a255f9df2708dc47
+SHA1: 0455a6c1c7387b5bb9c66e7963e97e9b7c51ffa5
+MD5sum: 17033043d0917d2ec9c313238df4f22d
+Description: KDE based Kerberos desktop
+ This metapackage installs a minimalistic KDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-live
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: locales-all, console-setup, cryptsetup, alsa-tools
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-live_2017.1.5_all.deb
+Size: 1842
+SHA256: a42626f68fc03d82416777506ef277787047926ad1d2adc6849a5cc3e622072a
+SHA1: 45eb0517e98b84793ed6c46729b26d161a5ea12f
+MD5sum: 46028f22906b2aed41e0c366d75d083b
+Description: Meta-package for Kerberos live images
+ This metapackage depends on generic packages that should be installed on an
+ official Kerberos live image.
+ .
+ They provide features that are not directly related to penetration testing but
+ that are intended to make the image more useful and usable for a wide set of
+ users.
+
+Package: kerberos-desktop-lxde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, lxde
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-lxde_2017.1.5_all.deb
+Size: 1740
+SHA256: 857aff5bac34f6c8c8f3d12ce2c2f408860d31f7cb7e8f54ecbafea4b9ad04dd
+SHA1: 7b9d7de5e2410613a68307e045768d323d6a6440
+MD5sum: 524bc82c4a45a6ca84fa46197132e7ea
+Description: LXDE based Kerberos desktop
+ This metapackage installs a minimalistic LXDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-xfce
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, xfce4, xfce4-terminal, xfce4-power-manager-plugins, lightdm, network-manager-gnome
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-xfce_2017.1.5_all.deb
+Size: 1784
+SHA256: 458e577aed759153d2b8330b9d66e0a9724cccf5b1226f47aa415f4d0f727dd3
+SHA1: e9314b471797f0ba7bac4f1c903ab9ff4bf32b11
+MD5sum: 40e4d98445185b36271f4485dd3c8bf9
+Description: Xfce based Kerberos desktop
+ This metapackage installs a minimalistic Xfce desktop on your Kerberos system.
+
+Package: kerberos-event-sounds
+Source: kerberos-system-sounds
+Version: 87.87
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 8
+Depends: kerberos-system-sounds
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-system-sounds/kerberos-event-sounds_87.87_amd64.deb
+Size: 1154
+SHA256: ff47acf9d9be5ba36093cfd8d2499fc751fe4a0bcb77c82727c12a9fae7c1c7e
+SHA1: a57744ed4d45a500acdae4f442b5faa8b0569458
+MD5sum: 9f43a6eaa7c8fad7f7aab39ef7c72cc2
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Dummy transitional package to kerberos-system-sounds.
+ It can be safely removed after the upgrade
+
+Package: kerberos-flash
+Version: 653221.3221kerberos65219
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 245
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), cron, kerberos-viewer
+Suggests: anacron
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: system
+Filename: pool/kerberos-rolling/k/kerberos-flash/kerberos-flash_653221.3221kerberos65219_amd64.deb
+Size: 59320
+SHA256: ba5f72c8728069ebadff89680133b56be308372a05e38de6c2e769544db1767b
+SHA1: 393827886af19385cc99b47ce094e76ca67a548b
+MD5sum: d15867882db4bba12feb7f571a19ada1
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ The KerberosFlash Manager provides an easy way to install and manage the the
+ Adobe Flash (tm) and PepperFlash plugins and includes an option to check
+ for and update the plugins automatically.
+ *WARNING: Some options of this program cause the Adobe Flash Player to be
+ downloaded from www.adobe.com. The End User License Agreement of the Adobe
+ Flash Player is available at www.adobe.com.
+
+Package: kerberos-flash-dbgsym
+Source: kerberos-flash
+Version: 653221.3221kerberos65219
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 38
+Depends: kerberos-flash (= 653221.3221kerberos65219)
+Homepage: http://www.blackhatsec.org/
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-flash/kerberos-flash-dbgsym_653221.3221kerberos65219_amd64.deb
+Size: 7010
+SHA256: e1258e242ce75e167e8c4fbed6522dc01dedbc7cb32243f52f91d21d5a88d9d9
+SHA1: 2102f2ec197c7c00532ee25fa32d640d7125ab36
+MD5sum: 1bfb0dc431ef994fc0cadd52800178f2
+Description: Debug symbols for kerberos-flash
+Build-Ids: bb4a1af730d9556a6faf7c5bf0c6b611df8c4e61
+
+Package: kerberos-goodies
+Version: 9.21.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 118
+Depends: perl
+Conflicts: kerberos-goodies, kerberos-goodies-core
+Replaces: kerberos-goodies, kerberos-goodies-core
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-goodies/kerberos-goodies_9.21.32_all.deb
+Size: 27838
+SHA256: 0f6275292ba2d7f01d5617a0c0048204cfe7f42930e024a61aa738806c7c6943
+SHA1: c589ce08e383237513a1bf3fa5578583299e93c8
+MD5sum: 968d91f82e92ad227af0aa453fd1313f
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Includes:
+  * burniso (write an ISO image from cli)
+  * fancy-prompts (nine different colorful and interesting prompts)
+  * ps_initrd.sh (initrd packing/unpacking tool)
+  * zram (script to set up zram)
+  * ps_mem.py (RAM usage script)
+  * fstrim-kerberos(auto set up fstrim of SSE drives as a weekly cron job)
+
+Package: kerberos-linux
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, apache2, apt-transport-https, atftpd, axel, default-mysql-server, exe2hexbat, expect, florence, gdisk, git, gparted, iw, lvm2, mercurial, mlocate, netcat-traditional, openssh-server, openvpn, p7zip-full, parted, php, php-mysql, rdesktop, rfkill, samba, screen, snmpd, snmp, subversion, sudo, tcpdump, testdisk, tightvncserver, tftp, tmux, unrar | unar, upx-ucl, vim, whois, zerofree
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux_2017.1.5_amd64.deb
+Size: 1992
+SHA256: d6efdf36016e4b5ba2a3ac691687e8d6fcf96bd2ed0ec7c01317df66d413f25a
+SHA1: 75e2d7d2ca8674e541bca2326e6c1a8f0f5c1d43
+MD5sum: bdf53ec3f029669924ab4688d23c5509
+Description: Kerberos Linux base system
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the packages that are installed by default
+ on any Kerberos system.
+
+Package: kerberos-linux-all
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux-forensic, kerberos-linux-full, kerberos-linux-gpu, kerberos-linux-pwtools, kerberos-linux-rfid, kerberos-linux-sdr, kerberos-linux-top10, kerberos-linux-voip, kerberos-linux-web, kerberos-linux-wireless, android-sdk, device-pharmer, freeradius, hackersh, python-halberd, htshells, ident-user-enum, ismtp, linux-exploit-suggester, openvas, parsero, sandi, set, shellnoob, shellter, websploit, teamsploit, veil-evasion, veil-catapult, vega, webhandler
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-all_2017.1.5_amd64.deb
+Size: 1982
+SHA256: 1a29897c365de47fbb8c6dd256d097c06837e890bc9853c52416f10014825ee6
+SHA1: d77d93762cb3b81cc0b9d199605584b0bcdca47a
+MD5sum: d011a4a5e22090d3591139f919e61ff6
+Description: Kerberos Linux - all packages
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all other specific purpose metapackages and
+ some more applications. Beware, this will install a lot of stuff!
+
+Package: kerberos-linux-artwork-extras
+Source: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 226221
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-linux-artwork-extras_1-1kerberos0_all.deb
+Size: 52736784
+SHA256: 698aa39501d8210f71e5ac5d4dfc6a74aa1ace9f93b0c07902faa2755f81dfbb
+SHA1: 366a8d44a20c973b706e8bfa3a470d696f1e47aa
+MD5sum: bcd21cd938f5dc8c8e4a83cc92f17695
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-linux-forensic
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, afflib-tools, apktool, autopsy, bulk-extractor, cabextract, python-capstone, chkrootkit, creddump, dc3dd, dcfldd, ddrescue, dissy, python-distorm3, dumpzilla, edb-debugger, ewf-tools, exiv2, extundelete, fcrackzip, firmware-mod-kit, flasm, foremost, galleta, gdb, gparted, guymager, inetsim, iphone-backup-analyzer, jad, javasnoop, libhivex-bin, lvm2, lynis, magicrescue, hashdeep, mdbtools, memdump, missidentify, nasm, ollydbg, p7zip-full, parted, pasco, pdfid, pdf-parser, pdgmail, peepdf, pev, polenum, radare2, safecopy, readpst, recoverjpeg, reglookup, regripper, rifiuti, rifiuti2, samdump2, scalpel, scrounge-ntfs, sleuthkit, smali, sqlitebrowser, tcpdump, tcpflow, tcpick, tcpreplay, truecrack, unrar | unar, upx-ucl, vinetto, volafox, volatility, wce, wireshark, xplico, yara
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-forensic_2017.1.5_amd64.deb
+Size: 2204
+SHA256: cbe44e628b44995554c6070ece11e67280ab1e08a621368987b761be898832fc
+SHA1: 9c03cae85f11a5b558a1e2b46d8e65c3b6a84f37
+MD5sum: a257f62994637e0a713b6be3b274b0a4
+Description: Kerberos Linux forensic tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the forensic tools that Kerberos Linux provides.
+
+Package: kerberos-linux-full
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, 0trace, acccheck, ace-voip, afflib-tools, aircrack-ng, amap, apache-users, apktool, armitage, arping | iputils-arping, arpwatch, arp-scan, asleap, automater, autopsy, backdoor-factory, bbqsql, bdfproxy, bed, beef-xss, binwalk, blindelephant, bluelog, blueranger, bluesnarfer, bluez, bluez-hcidump, braa, btscanner, bully, bulk-extractor, burpsuite, cabextract, cadaver, casefile, cdpsnarf, cewl, cgpt, chirp, chkrootkit, chntpw, cisco-auditing-tool, cisco-global-exploiter, cisco-ocs, cisco-torch, clang, clusterd, cmospwd, commix, copy-router-config, cowpatty, creddump, cryptsetup, crunch, cryptcat, curlftpfs, cutycapt, cymothoa, darkstat, davtest, dbd, dc3dd, dcfldd, ddrescue, deblaze, dex2jar, dhcpig, dirb, dirbuster, dissy, dmitry, dnmap, dns2tcp, dnschef, dnsenum, dnsmap, dnsrecon, dnstracer, dnswalk, dos2unix, dotdotpwn, dradis, driftnet, dsniff, dumpzilla, doona, eapmd5pass, edb-debugger, enum4linux, enumiax, ethtool, ettercap-graphical, ewf-tools, exiv2, exploitdb, extundelete, fcrackzip, fern-wifi-cracker, fierce, fiked, fimap, findmyhash, flasm, foremost, fping, fragroute, fragrouter, framework2, ftester, funkload, galleta, gdb, ghost-phisher, giskismet, golismero, gpp-decrypt, grabber, guymager, hackrf, hamster-sidejack, hash-identifier, hashcat, hashcat-utils, hexinject, hexorbase, hashid, hotpatch, hping3, httrack, hydra, hydra-gtk, i2c-tools, iaxflood, ifenslave, ike-scan, imagemagick, inetsim, intersect, intrace, inviteflood, iodine, irpas, jad, javasnoop, jboss-autopwn, john, johnny, joomscan, jsql, keepnote, keimpx, killerbee, king-phisher, kismet, laudanum, lbd, leafpad, libfindrtp, libfreefare-bin, libhivex-bin, libnfc-bin, lynis, macchanger, magicrescue, magictree, maltegoce, maltego-teeth, maskprocessor, masscan, mc, hashdeep, mdbtools, mdk3, medusa, memdump, metasploit-framework, mfcuk, mfoc, mfterm, mimikatz, minicom, miranda, miredo, missidentify, mitmproxy, msfpc, multimac, nasm, nbtscan, ncat-w32, ncrack, ncurses-hexedit, netdiscover, netmask, netsed, netsniff-ng, netwag, nfspy, ngrep, nikto, nipper-ng, nishang, nmap, ohrwurm, ollydbg, onesixtyone, ophcrack, ophcrack-cli, oscanner, p0f, pack, padbuster, paros, pasco, passing-the-hash, patator, pdfid, pdf-parser, pdgmail, peepdf, perl-cisco-copyconfig, pev, pipal, pixiewps, plecost, polenum, powerfuzzer, powersploit, protos-sip, proxychains, proxystrike, proxytunnel, ptunnel, pwnat, pyrit, python-faraday, python-impacket, python-rfidiot, python-scapy, rainbowcrack, radare2, rake, rcracki-mt, safecopy, readpst, reaver, rebind, recon-ng, recordmydesktop, recoverjpeg, redfang, redsocks, reglookup, regripper, responder, rifiuti, rifiuti2, rsmangler, rtpbreak, rtpflood, rtpinsertsound, rtpmixsound, sakis3g, samdump2, sbd, scalpel, scrounge-ntfs, sctpscan, sendemail, set, sfuzz, sidguesser, siege, siparmyknife, sipcrack, sipp, sipvicious, skipfish, sleuthkit, smali, smbmap, smtp-user-enum, sniffjoke, snmpcheck, socat, sparta, spectools, spike, spooftooph, sqldict, sqlitebrowser, sqlmap, sqlninja, sqlsus, sslcaudit, ssldump, sslh, sslscan, sslsniff, sslstrip, sslsplit, sslyze, statsprocessor, stunnel4, suckless-tools, sucrack, swaks, t50, tcpflow, tcpick, tcpreplay, termineter, tftpd32, thc-ipv6, thc-pptp-bruter, thc-ssl-dos, theharvester, tlssled, tnscmd10g, truecrack, twofi, u3-pwn, ua-tester, udptunnel, uniscan, unicornscan, unix-privesc-check, urlcrazy, vboot-kernel-utils, vboot-utils, vim-gtk, vinetto, vlan, voiphopper, volafox, volatility, vpnc, wafw00f, wapiti, wce, webacoo, webscarab, webshells, weevely, winexe, wfuzz, whatweb, wifi-honey, wifitap, wifite, windows-binaries, wireshark, wol-e, wordlists, wpscan, wvdial, xpdf, xprobe, xspy, xsser, xtightvncviewer, yersinia, zaproxy, zenmap, zim
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-full_2017.1.5_amd64.deb
+Size: 3650
+SHA256: 5ddf4edce0a1e8cb48b33340303e7206929f53b431ec2da567facb4b8b07ba35
+SHA1: 9b4e3292faa42095a6c008d5c12b9d9387a0dae5
+MD5sum: 5fa07c553dbf8a6cae9e8589ca902aeb
+Description: Kerberos Linux complete system
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that are included in
+ official Kerberos Linux images.
+
+Package: kerberos-linux-gpu
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, oclhashcat, pyrit, oclgausscrack, truecrack
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-gpu_2017.1.5_amd64.deb
+Size: 1774
+SHA256: 8100849f6f761effa8c0d2f3966d2ccf8fbd1ac2c8ba8a3eca71ccbdca2e785c
+SHA1: f031342cf2ddefbb74b85879710bdd978dca6586
+MD5sum: 79f0e2bea9294b660f5bc8ce0507155b
+Description: Kerberos Linux GPU tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the GPU tools that Kerberos Linux provides.
+
+Package: kerberos-linux-nethunter
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-root-login, desktop-base, xfce4, xfce4-places-plugin, xfce4-goodies, nmap, metasploit-framework, tcpdump, tshark, wireshark, burpsuite, armitage, sqlmap, recon-ng, wipe, socat, ettercap-text-only, exploitdb, beef-xss, device-pharmer, nishang, wifite, pixiewps, iw, aircrack-ng, mfoc, nethunter-utils, gpsd, kismet, kismet-plugins, giskismet, dnsmasq, dsniff, sslstrip, mdk3, mitmproxy, autossh, openssh-server, tightvncserver, apache2, postgresql, openvpn, php, wpasupplicant, zip, macchanger, dbd, florence, libffi-dev, python-setuptools, python-pip, hostapd, ptunnel, tcptrace, dnsutils, p0f, mitmf, python-twisted, python-dnspython, libssl-dev, sslsplit, python-pcapy, tinyproxy, isc-dhcp-server, rfkill, backdoor-factory, bdfproxy, python-lxml, python-m2crypto, python-netaddr, python-mako, sox, librtlsdr-dev
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-nethunter_2017.1.5_amd64.deb
+Size: 2210
+SHA256: ee9485fa2375c1ff32af70e74967e5966c261a000984f48574c965919e49f329
+SHA1: 292075cc618ffdf35ce719e3246b8ebf8d57d4df
+MD5sum: 05e395c8d83e96a45fa2dca5cf670a8c
+Description: Kerberos Linux Nethunter tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that a Kerberos Linux
+ Nethunter system should have installed.
+
+Package: kerberos-linux-pwtools
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, kerberos-linux-gpu, chntpw, cmospwd, crunch, fcrackzip, findmyhash, gpp-decrypt, hash-identifier, hashcat, hashcat-utils, hashid, hydra, hydra-gtk, john, johnny, keimpx, maskprocessor, medusa, mimikatz, ncrack, ophcrack, ophcrack-cli, pack, passing-the-hash, patator, pdfcrack, pipal, polenum, rainbowcrack, rarcrack, rcracki-mt, rsmangler, samdump2, seclists, sipcrack, sipvicious, sqldict, statsprocessor, sucrack, thc-pptp-bruter, truecrack, twofi, wce, wordlists
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-pwtools_2017.1.5_amd64.deb
+Size: 2006
+SHA256: a69bc768cceb060de8a14e302d4b0076de55a08e52e72416f9f4dbf35d84f36e
+SHA1: ac98e3843c572167db082fc9c4384e00605b184b
+MD5sum: b84cfb0ce43c4963836c3f698a6b050a
+Description: Kerberos Linux password cracking tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the password cracking tools that Kerberos Linux
+ provides.
+
+Package: kerberos-linux-rfid
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, libfreefare-bin, libnfc-bin, mfcuk, mfoc, mfterm, python-rfidiot
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-rfid_2017.1.5_amd64.deb
+Size: 1792
+SHA256: b80cafde6e67fc20e64dcfd8ba955f39351041c79b8af25e467db161d0942f32
+SHA1: fdf4e3129532d7a151918f6b200ca7a19effeb98
+MD5sum: 595bb1aa56f432c5f854c1abda19a76e
+Description: Kerberos Linux RFID tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the RFID tools that Kerberos Linux provides.
+
+Package: kerberos-linux-sdr
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, gnuradio, chirp, hackrf, kerberosbrate-rtl, rtlsdr-scanner, gqrx-sdr, multimon-ng, uhd-host, uhd-images, libgnuradio-baz, gr-osmosdr, gr-iqbal
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-sdr_2017.1.5_amd64.deb
+Size: 1834
+SHA256: 528813ab5909872118140fcc3a713fe277ec4547654a8ed8851a17a1e89cef50
+SHA1: 720e611188939d963b777429ef9844f4d3ab87fd
+MD5sum: 4d6553caf878d87320cff0f20cf6771e
+Description: Kerberos Linux SDR tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the SDR tools that Kerberos Linux provides.
+
+Package: kerberos-linux-top10
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, aircrack-ng, burpsuite, hydra, john, maltegoce, maltego-teeth, metasploit-framework, nmap, zaproxy, sqlmap, wireshark
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-top10_2017.1.5_amd64.deb
+Size: 1846
+SHA256: 5dfea65342dc4ba3b849af2c1052f08d248ed7861b1c8ca091febab5bf754456
+SHA1: b6b0541503b7e804456ad91e5c502e3ab80ff362
+MD5sum: 219a777adffc83878d3aebfe270f4b02
+Description: Kerberos Linux Top 10 tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on the 10 most important applications that Kerberos Linux
+ provides.
+
+Package: kerberos-linux-voip
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, ace-voip, dnmap, enumiax, iaxflood, inviteflood, libfindrtp, nmap, ohrwurm, protos-sip, rtpbreak, rtpflood, rtpinsertsound, rtpmixsound, sctpscan, siparmyknife, sipcrack, sipp, sipvicious, voiphopper, wireshark
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-voip_2017.1.5_amd64.deb
+Size: 1868
+SHA256: 0dcded564a31b0b4ba3e4c80e7d7fa4e6ed61abb3e0124e3e217b3e4c4b2c5f8
+SHA1: aaf56aeb52cd8b8d5ba4f8f2cedd30235b07a951
+MD5sum: c2baead0eec4b631a437117a9a0e72e9
+Description: Kerberos Linux VoIP tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the VoIP tools that Kerberos Linux provides.
+
+Package: kerberos-linux-web
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, apache2, apache-users, arachni, automater, bbqsql, beef-xss, blindelephant, burpsuite, cadaver, clusterd, cookie-cadger, cutycapt, davtest, dirb, dirbuster, dnmap, dotdotpwn, eyewitness, ftester, funkload, golismero, grabber, python-halberd, hamster-sidejack, hexorbase, http-tunnel, httprint, httrack, hydra, hydra-gtk, jboss-autopwn, joomscan, jsql, laudanum, lbd, maltegoce, maltego-teeth, medusa, mitmproxy, default-mysql-server, ncrack, nikto, nishang, nmap, oscanner, owasp-mantra-ff, padbuster, paros, patator, php, php-mysql, plecost, powerfuzzer, proxychains, proxystrike, proxytunnel, redsocks, sidguesser, siege, skipfish, slowhttptest, sqldict, sqlitebrowser, sqlmap, sqlninja, sqlsus, sslcaudit, ssldump, sslh, sslscan, sslsniff, sslstrip, sslsplit, sslyze, stunnel4, thc-ssl-dos, tlssled, tnscmd10g, ua-tester, uniscan, vega, wafw00f, wapiti, webacoo, webhandler, webscarab, webshells, weevely, wfuzz, whatweb, wireshark, wpscan, xsser, zaproxy
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-web_2017.1.5_amd64.deb
+Size: 2276
+SHA256: 295d3ae992c9714622a05eaf7a55f21e0c10f51b3ab2a85dd312a3dfe02b52f4
+SHA1: e66d751ad72538b332c7bd0262a534681080c789
+MD5sum: 052797f20647574825ee34b8de782ce7
+Description: Kerberos Linux webapp assessment tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the webapp assessment tools that Kerberos Linux
+ provides.
+
+Package: kerberos-linux-wireless
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: amd64
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-linux, kerberos-linux-sdr, aircrack-ng, pyrit, asleap, bluelog, blueranger, bluesnarfer, bluez, bluez-hcidump, btscanner, bully, cowpatty, crackle, eapmd5pass, fern-wifi-cracker, giskismet, iw, killerbee, kismet, libfreefare-bin, libnfc-bin, macchanger, mdk3, mfcuk, mfoc, mfterm, oclhashcat, python-rfidiot, reaver, redfang, rfcat, rfkill, sakis3g, spectools, spooftooph, ubertooth, wifi-honey, wifitap, wifite, wireshark
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-linux-wireless_2017.1.5_amd64.deb
+Size: 1978
+SHA256: d4f2cc44844bbf6a69ebd8961f76dbd2e42006a897c7e01be9b4be41295508b6
+SHA1: b0633c890f7276fc738ecca3a59a88fe8ffa13e6
+MD5sum: 9b0fce9d0878cfdedea3455481e4892b
+Description: Kerberos Linux wireless tools
+ This is Kerberos Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the wireless tools that Kerberos Linux provides.
+
+Package: kerberos-logo-plymouth
+Source: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 9
+Depends: kerberos-default-settings
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-logo-plymouth_1-1kerberos0_all.deb
+Size: 1888
+SHA256: 2ae586c2ff78880cbd1c548574df5efdc4fd44074adf6872aa90f598f367dafe
+SHA1: f4cf294f63dcc9ef3458f63032223169c8ec9fa3
+MD5sum: 0ebf78e50c239998c7821bf2558a5f4d
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-menu
+Version: 2017.02.24+p3
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@kerberossec.org>
+Installed-Size: 6388
+Depends: perl:any, libdpkg-perl, libfile-fcntllock-perl, xdg-utils
+Breaks: dradis (<< 3.1.0~rc2)
+Replaces: mate-menus
+Priority: optional
+Section: kerberos
+Filename: pool/kerberos-rolling/k/kerberos-menu/kerberos-menu_2017.02.24+p3_all.deb
+Size: 4407332
+SHA256: 0ba91e32f5a2277018d490030be06c126298d64298d6c466e558bfcb22865ec8
+SHA1: ffa1febcbda42795d95b35145e16195b79d69888
+MD5sum: 2d2987b9765ed993946740442ed685e7
+Description: Kerberos GNU/Linux custom menu
+ This package provides a custom menu for Kerberos GNU/Linux.
+ .
+ It is used by any destkop that complies with the Freedesktop menu
+ specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
+
+Package: kerberos-menu-editor
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 287
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-menu-editor/kerberos-menu-editor_1-1kerberos_amd64.deb
+Size: 73984
+SHA256: 20a5e929ebcf37182415a0965951cbe81df5be032ec977f6deb49153d33720cd
+SHA1: 1400a1bf99505d2474d66215808717bbbf2a5439
+MD5sum: 95fc8245d584e529385f474d0c36956b
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ KerberosMenu Editor is a tool for editing Xfce menu
+
+Package: kerberos-menu-editor-dbgsym
+Source: kerberos-menu-editor
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 50
+Depends: kerberos-menu-editor (= 1-1kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-menu-editor/kerberos-menu-editor-dbgsym_1-1kerberos_amd64.deb
+Size: 9246
+SHA256: 3489d926f3cf47c61152c61697e458a72c7330d06fce64c1f1dc2c528ac28366
+SHA1: 786638abec7daa1b41b8f484fb935f1b6cf2eba6
+MD5sum: 6338a283bcc0c6fb8aa72c62068b0a5e
+Description: Debug symbols for kerberos-menu-editor
+Build-Ids: 3d343cd1f4e15254223aa333638f882ccbe4db30
+
+Package: kerberos-packageinstaller
+Version: 4398.219kerberos4387
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 230
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), kerberos-viewer, kerberos-packageinstaller-pkglist
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-packageinstaller/kerberos-packageinstaller_4398.219kerberos4387_amd64.deb
+Size: 68814
+SHA256: 41b9733cec442616e76fa0b512de6e5efb7544f5eb9420336cb28a2d883891d9
+SHA1: 17a3366a1917764256cf1637b2ba6eed158bbf95
+MD5sum: 255494590d2619049406d38e747ed587
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Kerberos-packageinstaller is a program used for installing additional packages.
+
+Package: kerberos-packageinstaller-dbgsym
+Source: kerberos-packageinstaller
+Version: 4398.219kerberos4387
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 40
+Depends: kerberos-packageinstaller (= 4398.219kerberos4387)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-packageinstaller/kerberos-packageinstaller-dbgsym_4398.219kerberos4387_amd64.deb
+Size: 7578
+SHA256: 7ff4962bbbd0803f57e9ab911176f56695f9d62a7959632994e1a76a7ce12e56
+SHA1: 0b8a9f783b204d8d5eeb0bb4af0914d1a0e3a256
+MD5sum: 919f67201c5a20431af6b8ff5d2d6f97
+Description: Debug symbols for kerberos-packageinstaller
+Build-Ids: a3d3eaa664eba272f3bc6d7dcf42b750765b174c
+
+Package: kerberos-packageinstaller-pkglist
+Version: 4398.87.54kerberos4387
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 280
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-packageinstaller-pkglist/kerberos-packageinstaller-pkglist_4398.87.54kerberos4387_amd64.deb
+Size: 22616
+SHA256: e8eba685cee2532cef24fddb111f36f342d67e4fe11475d376981fb3d2e187dd
+SHA1: 6dd26abe07a675ecbfb15fe13f786d66c0461ec9
+MD5sum: 8b26daf0da2dd6efbf712eb3a625d9a1
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Kerberos-packageinstaller is a program used for installing additional packages.
+ Kerberos-packageinstaller-pkglist contains the list of packages and installation instructions.
+
+Package: kerberos-root-login
+Version: 2016.1.0
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 9
+Breaks: gdm3 (<< 3.13)
+Priority: optional
+Section: misc
+Filename: pool/kerberos-rolling/k/kerberos-root-login/kerberos-root-login_2016.1.0_all.deb
+Size: 1764
+SHA256: 82ee94663279db4b4da5b194b985e7592c5d104ac10ab7814b78dd35bff445bf
+SHA1: 428bf491ab5e1a03f7618c3201fd69ed26aaa90a
+MD5sum: 207ef87e116a6a97b7c5b3871ceb8e3a
+Description: Bits of configuration to allow root logins
+ Kerberos's purpose is very specific and it requires root rights in many
+ cases. As such, root logins are allowed by default.
+ .
+ Installing this package modifies gdm3's default configuration to allow
+ root logins.
+
+Package: kerberos-select-sound
+Version: 5443.4332kerberos
+Architecture: amd64
+Bugs: mailto:  BlackDragon <BlackDragonLinux@gmail.com>
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 151
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), kerberos-viewer
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-select-sound/kerberos-select-sound_5443.4332kerberos_amd64.deb
+Size: 40342
+SHA256: 2cab1116cf78e27c9b5949d476d882d2f78c9128f95846a61144cb21e8a46348
+SHA1: 0739e1dd023711cabbecafbafea29b3601a83ed5
+MD5sum: 33054febb0d0b64f611fa2721ef7626d
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ kerberos Select Sound is a tool used for selecting the default sound card
+
+Package: kerberos-select-sound-dbgsym
+Source: kerberos-select-sound
+Version: 5443.4332kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Bugs: mailto:  BlackDragon <BlackDragonLinux@gmail.com>
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 32
+Depends: kerberos-select-sound (= 5443.4332kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-select-sound/kerberos-select-sound-dbgsym_5443.4332kerberos_amd64.deb
+Size: 5884
+SHA256: a088d57ea9072e7125a7974eeff92ed59a3b156757e4cfcac4fa0558cd018eb7
+SHA1: 6580caebd06f15a2035171f7cb64b4b0e7e78378
+MD5sum: 652ae7428af27316f2135560a2d6d43d
+Description: Debug symbols for kerberos-select-sound
+Build-Ids: af1ae080042e1432f96a99ab62635bf3c906a8f7
+
+Package: kerberos-sound-theme-borealis
+Version: 76.54kerberos
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 2918
+Provides: kerberos-sound-theme
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-sound-theme-borealis/kerberos-sound-theme-borealis_76.54kerberos_all.deb
+Size: 2789112
+SHA256: 75d53d8575de7ff3285153d93a5fb61163ad13a8c5ffc4d9448afb2cf01ffe74
+SHA1: 37725a8c71b2cce8c21d4a561d3aa39b3a956144
+MD5sum: 99a45900acce6a6c8ac32929bee94860
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-system-sounds
+Version: 87.87
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 192
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), kerberos-viewer, kerberos-sound-theme, libcanberra-gstreamer, libcanberra-pulse, libcanberra-gtk-module
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-system-sounds/kerberos-system-sounds_87.87_amd64.deb
+Size: 51088
+SHA256: 8ba90ef8e674d5f586369e6b224aa06491b20ebf47fbe471e9b2987cd72b1fd9
+SHA1: dffd9309f26a194e68793a6e2432acdf49209222
+MD5sum: dba353e9ca298ca8bee2bfa78b0033e6
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Kerberos System Sounds is a tool for selecting the system sounds in Kerberos Linux
+
+Package: kerberos-system-sounds-dbgsym
+Source: kerberos-system-sounds
+Version: 87.87
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 36
+Depends: kerberos-system-sounds (= 87.87)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-system-sounds/kerberos-system-sounds-dbgsym_87.87_amd64.deb
+Size: 6432
+SHA256: e16891eeccd049fd6066def69798251d7210a5f02c9832d17e72299bd753c844
+SHA1: 953f567d2bd70e55930ade04f1d0fd49fb33f8ee
+MD5sum: 09c68ca10a3ab2553a47c65df424e02a
+Description: Debug symbols for kerberos-system-sounds
+Build-Ids: e8dfb64e4ea677d2b1f1e0abca22fcbae96203ff
+
+Package: kerberos-viewer
+Version: 875443.8798.87kerberos874332
+Architecture: amd64
+Bugs: mailto: Kerberos <KerberosLinux@gmail.com>
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5webkit5 (>= 5.6.0~rc), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Provides: x-www-browser
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: net
+Filename: pool/kerberos-rolling/k/kerberos-viewer/kerberos-viewer_875443.8798.87kerberos874332_amd64.deb
+Size: 10520
+SHA256: 6d97c33dda72b4ad6110049dd1c560eece61536146457d13ae7be80975c263a3
+SHA1: acdd0d94e1735de90154e3dd3aa51b3b58d4e3c1
+MD5sum: a96f6019808c592db144061fc200a1f9
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Kerberos Viewer displays a URL in a new window. It's an utility program used for
+ displaying help information by various Kerberos Linux utilities
+
+Package: kerberos-viewer-dbgsym
+Source: kerberos-viewer
+Version: 875443.8798.87kerberos874332
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Bugs: mailto: Kerberos <KerberosLinux@gmail.com>
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 25
+Depends: kerberos-viewer (= 875443.8798.87kerberos874332)
+Homepage: http://www.blackhatsec.org/
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-viewer/kerberos-viewer-dbgsym_875443.8798.87kerberos874332_amd64.deb
+Size: 4598
+SHA256: 03fca8363286d2d6d3807f270b7967ff4a02e2f0a98fc094ed0810a4dfc22978
+SHA1: 6d37d512e33c9e68d3907ca49d6cd583a9b334df
+MD5sum: b2a2ef5645ba578de0e3158334fbdab0
+Description: Debug symbols for kerberos-viewer
+Build-Ids: 08705611fd60f4f80bacafecf34552eeaa9884de
+
+Package: kerberos-welcome
+Version: 653221.219kerberos65219+65
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 177
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), kerberos-viewer
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-welcome/kerberos-welcome_653221.219kerberos65219+65_amd64.deb
+Size: 59336
+SHA256: d586a1b719c50ff27b5da262d53088ad8d6aeb35f445ed2d10e999b31ca5ec72
+SHA1: 6f446949f713c301bedb48b430761fea17ada34a
+MD5sum: d5663332a807bcee5613241478677922
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ KerberosWelcome displays a welcome screen
+
+Package: kerberos-welcome-dbgsym
+Source: kerberos-welcome
+Version: 653221.219kerberos65219+65
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 35
+Depends: kerberos-welcome (= 653221.219kerberos65219+65)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-welcome/kerberos-welcome-dbgsym_653221.219kerberos65219+65_amd64.deb
+Size: 6368
+SHA256: 5e543867901dc3b72e20a18130743bbd487b02306100f637cbf702747e06e4cd
+SHA1: dd3ca2e8c23b1368236518365b1af1b209b3cd7a
+MD5sum: eabc956ef65374e04c3ece0cb62e2630
+Description: Debug symbols for kerberos-welcome
+Build-Ids: 4e01a6c8cbd96ff932a6bd9a8d6550a00e717b3f
+
+Package: kerberossystem
+Version: 1.0
+Architecture: amd64
+Maintainer: Kerberos (Kerberos Linux Penetration Testing Distribution) <kerberoslinux@gmail.com>
+Installed-Size: 10
+Depends: apt-kerberos, kerberos-desktop-xfce, kerberos, kerberos-anonsurf, kerberos-bootrepair, kerberos-broadcom-manager, kerberos-codecs, kerberos-default-settings, kerberos-goodies, kerberos-linux, kerberos-menu, kerberos-root-login, kerberos-select-sound, kerberos-sound-theme-borealis, kerberos-system-sounds, kerberos-viewer, kerberos-welcome
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberossystem/kerberossystem_1.0_amd64.deb
+Size: 2350
+SHA256: ff6c601a8f5c75ff2f1527cc41197230beafc9b84c1ede83b31f99e23b20c288
+SHA1: ef3cdfa9155ff16c71837408398c1fb5bce37018
+MD5sum: 964e955caf134781e02d9ef5890f7382
+Description: Kerberos Package by D4RkNiK0l4s.
+

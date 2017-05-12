@@ -1,0 +1,7 @@
+Archive: 8.0
+Version: 8.0
+Component: contrib
+Origin: kerberos-apt-repo
+Label: kerberos-apt-repo
+Architecture: i386
+Description: Repository for kerberos, a system for penetration testing.

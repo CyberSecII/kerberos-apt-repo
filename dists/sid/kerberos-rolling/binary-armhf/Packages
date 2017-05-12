@@ -1,0 +1,302 @@
+Package: apt-kerberos
+Version: 8.9.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 36
+Homepage: http://www.blackhatsec.org/
+Priority: required
+Section: system
+Filename: pool/kerberos-rolling/a/apt-kerberos/apt-kerberos_8.9.32_all.deb
+Size: 7202
+SHA256: d76129618e2e0fc612a0b8d6214351929ca643998e155a96e1e94dc14c4586d0
+SHA1: 82a6943989a4be0c881b28e525ead88454f5c0d4
+MD5sum: 95b42ed09cc3d82d5e2dfbf03cf7ba31
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: gqrx
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: gqrx-sdr
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/gqrx_2017.1.5_all.deb
+Size: 1732
+SHA256: 65aeacef1b62cbf75ed2ca17476630c653d1a889ddf077262a611b90f7f9a386
+SHA1: f757e6574205dd66cf935709267825b8208ca7c9
+MD5sum: b8991cc74f19e1aa9f883f4466251a41
+Description: Transitional package for gqrx-sdr
+ This package is empty. It only depends on gqrx-sdr to ensure a sane
+ upgrade path in Kerberos.
+ .
+ This package can be safely removed once gqrx-sdr has been installed.
+
+Package: kerberos-anonsurf
+Version: 1.5kerberos
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 9
+Depends: secure-delete, tor, i2p, nscd, dnsmasq
+Recommends: gtkdialog, socat, gufw, libnotify-bin, polipo, proxychains, openvpn, torchat
+Suggests: vidalia
+Priority: optional
+Section: net
+Filename: pool/kerberos-rolling/k/kerberos-anonsurf/kerberos-anonsurf_1.5kerberos_all.deb
+Size: 1210
+SHA256: d4fd5ea05814553806060f02c0d52afe1ea4818a878bc245eb52461f1b9e570c
+SHA1: 78d1d12575030ebd547c2ff9cceec21c9157fcd6
+MD5sum: 00264ae8d42eb25170cad13ea6b16ac0
+Description: kerberos anonsurf for kerberos
+ This package contains kerberos anonsurf.
+
+Package: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 8226
+Depends: kerberos-default-settings
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-artwork_1-1kerberos0_all.deb
+Size: 3797008
+SHA256: 832b04c8abcd57ce66cd9e0fae3a7b2caecf8c578f8ac2cc7f22dc1962f8ac7d
+SHA1: 14b460d8d2d9bdd7ea598e9137106063a93a8356
+MD5sum: 84f5f68e72e243173a57de5577c15f60
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-desktop-common
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-root-login, kerberos-menu, kerberos-debtags, desktop-base, firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any, dbus-user-session, xserver-xorg-legacy
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-common_2017.1.5_all.deb
+Size: 1854
+SHA256: 708c9e2cd0b81b3da033f2a359357f21118ea147de5870634632c475677049aa
+SHA1: 01e582b65ef2d84afc8fca8f5b245bc0e028a85c
+MD5sum: 6dbb03e9c2dd2d1b21d0202a191e05ff
+Description: Meta-package with dependencies common to all desktops provided by Kerberos
+ This metapackage depends on Kerberos packages that should be intalled on all
+ desktop installations of Kerberos Linux.
+ .
+ This metapackage is a dependency of all kerberos-desktop-* packages.
+
+Package: kerberos-desktop-gnome
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, gnome-core, gedit, gnome-brave-icon-theme, gnome-theme-kerberos, gnome-shell-extensions, gnome-shell-extension-proxyswitcher, gnome-shell-extension-dashtodock, gnome-shell-extension-easyscreencast, gnome-shell-extension-workspacestodock, gnome-tweak-tool, gnome-orca, file-roller
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Conflicts: nautilus-open-terminal, xserver-xorg-input-synaptics
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-gnome_2017.1.5_all.deb
+Size: 1894
+SHA256: 47047bf28efa3e061c27f949edb61cae93e28b36cb252ac779aa695e428aaa64
+SHA1: 69c128f517456894dda0286228594c2f5faf9df6
+MD5sum: 019eaf96896fd5f7264c538168cf179a
+Description: GNOME based Kerberos desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kerberos system.
+
+Package: kerberos-desktop-kde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, kde-plasma-desktop, plasma-nm, sddm
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-kde_2017.1.5_all.deb
+Size: 1720
+SHA256: bd51a07e3b3d7406036487bca04cf90350252cb35c1b83f5a255f9df2708dc47
+SHA1: 0455a6c1c7387b5bb9c66e7963e97e9b7c51ffa5
+MD5sum: 17033043d0917d2ec9c313238df4f22d
+Description: KDE based Kerberos desktop
+ This metapackage installs a minimalistic KDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-live
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: locales-all, console-setup, cryptsetup, alsa-tools
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-live_2017.1.5_all.deb
+Size: 1842
+SHA256: a42626f68fc03d82416777506ef277787047926ad1d2adc6849a5cc3e622072a
+SHA1: 45eb0517e98b84793ed6c46729b26d161a5ea12f
+MD5sum: 46028f22906b2aed41e0c366d75d083b
+Description: Meta-package for Kerberos live images
+ This metapackage depends on generic packages that should be installed on an
+ official Kerberos live image.
+ .
+ They provide features that are not directly related to penetration testing but
+ that are intended to make the image more useful and usable for a wide set of
+ users.
+
+Package: kerberos-desktop-lxde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, lxde
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-lxde_2017.1.5_all.deb
+Size: 1740
+SHA256: 857aff5bac34f6c8c8f3d12ce2c2f408860d31f7cb7e8f54ecbafea4b9ad04dd
+SHA1: 7b9d7de5e2410613a68307e045768d323d6a6440
+MD5sum: 524bc82c4a45a6ca84fa46197132e7ea
+Description: LXDE based Kerberos desktop
+ This metapackage installs a minimalistic LXDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-xfce
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, xfce4, xfce4-terminal, xfce4-power-manager-plugins, lightdm, network-manager-gnome
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-xfce_2017.1.5_all.deb
+Size: 1784
+SHA256: 458e577aed759153d2b8330b9d66e0a9724cccf5b1226f47aa415f4d0f727dd3
+SHA1: e9314b471797f0ba7bac4f1c903ab9ff4bf32b11
+MD5sum: 40e4d98445185b36271f4485dd3c8bf9
+Description: Xfce based Kerberos desktop
+ This metapackage installs a minimalistic Xfce desktop on your Kerberos system.
+
+Package: kerberos-goodies
+Version: 9.21.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 118
+Depends: perl
+Conflicts: kerberos-goodies, kerberos-goodies-core
+Replaces: kerberos-goodies, kerberos-goodies-core
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-goodies/kerberos-goodies_9.21.32_all.deb
+Size: 27838
+SHA256: 0f6275292ba2d7f01d5617a0c0048204cfe7f42930e024a61aa738806c7c6943
+SHA1: c589ce08e383237513a1bf3fa5578583299e93c8
+MD5sum: 968d91f82e92ad227af0aa453fd1313f
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Includes:
+  * burniso (write an ISO image from cli)
+  * fancy-prompts (nine different colorful and interesting prompts)
+  * ps_initrd.sh (initrd packing/unpacking tool)
+  * zram (script to set up zram)
+  * ps_mem.py (RAM usage script)
+  * fstrim-kerberos(auto set up fstrim of SSE drives as a weekly cron job)
+
+Package: kerberos-linux-artwork-extras
+Source: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 226221
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-linux-artwork-extras_1-1kerberos0_all.deb
+Size: 52736784
+SHA256: 698aa39501d8210f71e5ac5d4dfc6a74aa1ace9f93b0c07902faa2755f81dfbb
+SHA1: 366a8d44a20c973b706e8bfa3a470d696f1e47aa
+MD5sum: bcd21cd938f5dc8c8e4a83cc92f17695
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-logo-plymouth
+Source: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 9
+Depends: kerberos-default-settings
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-logo-plymouth_1-1kerberos0_all.deb
+Size: 1888
+SHA256: 2ae586c2ff78880cbd1c548574df5efdc4fd44074adf6872aa90f598f367dafe
+SHA1: f4cf294f63dcc9ef3458f63032223169c8ec9fa3
+MD5sum: 0ebf78e50c239998c7821bf2558a5f4d
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: kerberos-menu
+Version: 2017.02.24+p3
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@kerberossec.org>
+Installed-Size: 6388
+Depends: perl:any, libdpkg-perl, libfile-fcntllock-perl, xdg-utils
+Breaks: dradis (<< 3.1.0~rc2)
+Replaces: mate-menus
+Priority: optional
+Section: kerberos
+Filename: pool/kerberos-rolling/k/kerberos-menu/kerberos-menu_2017.02.24+p3_all.deb
+Size: 4407332
+SHA256: 0ba91e32f5a2277018d490030be06c126298d64298d6c466e558bfcb22865ec8
+SHA1: ffa1febcbda42795d95b35145e16195b79d69888
+MD5sum: 2d2987b9765ed993946740442ed685e7
+Description: Kerberos GNU/Linux custom menu
+ This package provides a custom menu for Kerberos GNU/Linux.
+ .
+ It is used by any destkop that complies with the Freedesktop menu
+ specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
+
+Package: kerberos-root-login
+Version: 2016.1.0
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 9
+Breaks: gdm3 (<< 3.13)
+Priority: optional
+Section: misc
+Filename: pool/kerberos-rolling/k/kerberos-root-login/kerberos-root-login_2016.1.0_all.deb
+Size: 1764
+SHA256: 82ee94663279db4b4da5b194b985e7592c5d104ac10ab7814b78dd35bff445bf
+SHA1: 428bf491ab5e1a03f7618c3201fd69ed26aaa90a
+MD5sum: 207ef87e116a6a97b7c5b3871ceb8e3a
+Description: Bits of configuration to allow root logins
+ Kerberos's purpose is very specific and it requires root rights in many
+ cases. As such, root logins are allowed by default.
+ .
+ Installing this package modifies gdm3's default configuration to allow
+ root logins.
+
+Package: kerberos-sound-theme-borealis
+Version: 76.54kerberos
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 2918
+Provides: kerberos-sound-theme
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-sound-theme-borealis/kerberos-sound-theme-borealis_76.54kerberos_all.deb
+Size: 2789112
+SHA256: 75d53d8575de7ff3285153d93a5fb61163ad13a8c5ffc4d9448afb2cf01ffe74
+SHA1: 37725a8c71b2cce8c21d4a561d3aa39b3a956144
+MD5sum: 99a45900acce6a6c8ac32929bee94860
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
